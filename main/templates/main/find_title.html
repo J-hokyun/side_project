@@ -1,0 +1,26 @@
+{% extends 'main/template.html' %}
+{% load static %}
+
+{% block style %}
+<style>
+    body {
+        background-color : #F9EBDE;
+        color : #815854;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center; 
+        height: 100vh; 
+    }
+</style>
+{% endblock %}
+{% block content %}
+<div class = "container" style = "width:100%;">
+    <div class = "row justify-content-center">
+        <h1 style = "font-size:50px;">나와 가까운 가족부터 입력하여 찾아보세요!</h1>
+    </div>
+</div>
+{% endblock %}

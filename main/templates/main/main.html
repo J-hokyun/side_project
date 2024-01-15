@@ -4,8 +4,8 @@
 {% block style %}
 <style>
     body {
-        background-color: #815854; 
-        color: #F9EBDE; 
+        background-color : #F9EBDE;
+        color : #815854;
     }
 
     .container {
@@ -17,8 +17,8 @@
     }
 
     .styled-button {
-        background-color: #F9EBDE;
-        color: #815854;
+        background-color:#815854;
+        color: #F9EBDE;
         padding: 15px 30px;
         font-size: 20px;
         transition: 0.3s;
@@ -42,7 +42,9 @@
         <h1 style = "font-size:50px;">궁금한 가족의 호칭을 쉽게 찾아보세요!</h1>
     </div>
     <div class = "row justify-content-center">
+        <a href = "{% url 'main:find' %}">
         <button class = "styled-button"> 시작하기 </button>
+        </a>
     </div>
 
 </div>
