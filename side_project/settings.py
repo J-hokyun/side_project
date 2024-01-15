@@ -128,6 +128,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 ALLOWED_HOSTS = [
     ".ap-northeast-2.compute.amazonaws.com",
     "127.0.0.1",
+    ".findtitle.co.kr",
 ]
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
